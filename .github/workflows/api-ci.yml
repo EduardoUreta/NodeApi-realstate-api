@@ -32,7 +32,7 @@ jobs:
           ${{ runner.os }}-node-
 
     - name: Instalar dependencias
-      run: npm i
+      run: npm install
 
     - name: Ejecutar pruebas con Jest
       run: npm test
